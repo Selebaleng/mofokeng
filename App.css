@@ -1,0 +1,91 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-container {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  background-color: #444;
+  padding: 1rem;
+  height: 100vh;
+  width: 200px;
+}
+
+nav a {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #555;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #666;
+  transform: scale(1.05);
+}
+
+main {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #fff;
+  margin: 1rem auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+}
+
+h2 {
+  color: #333;
+  text-align: center;
+}
+
+.form input, .form select, .form button {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
